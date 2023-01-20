@@ -4,7 +4,7 @@
 
 ## 1. Які назви стовпців файлу даних?
 
-	file = read.csv("C:/Users/apex/Downloads/hw1_data.csv")
+	file = read.csv("D:/hw1_data.csv")
 	colnames(file)
 
 Результат:
