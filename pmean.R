@@ -14,11 +14,11 @@ pmean <- function(directory, pollutant, id = 1:332){
 
 complete <- function(directory, id){
    db <- file(directory, id)
-   l = NULL
+   nobs = NULL
    for (i in id) {
-     l = c(l, nrow(na.omit(myDataBase)))
+     nobs = c(nobs, nrow(na.omit(db)))
    } 
-   return(data.frame(id, l))
+   return(data.frame(id, nobs))
 }
 
 corr <- function(directory, threshold = 0){
