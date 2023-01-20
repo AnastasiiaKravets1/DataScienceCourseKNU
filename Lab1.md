@@ -65,11 +65,11 @@ matrix:
 
 cbind:
 
-a <- c(0.5, 3.9, 0, 2)
-b <- c(1.3, 131, 2.2, 7)
-c <- c(3.5, 2.8, 4.6, 5.1)
-cbind <- cbind(a, b, c)
-cbind
+	a <- c(0.5, 3.9, 0, 2)
+	b <- c(1.3, 131, 2.2, 7)
+	c <- c(3.5, 2.8, 4.6, 5.1)
+	cbind <- cbind(a, b, c)
+	cbind
 
 Результат:
 
@@ -84,12 +84,12 @@ cbind
 
 rbind:
 
-a <- c(0.5, 1.3, 3.5)
-b <- c(3.9, 131, 2.8)
-c <- c(0, 2.2, 4.6)
-d <- c(2, 7, 5.1)
-rbind = rbind(a, b, c, d)
-rbind
+	a <- c(0.5, 1.3, 3.5)
+	b <- c(3.9, 131, 2.8)
+	c <- c(0, 2.2, 4.6)
+	d <- c(2, 7, 5.1)
+	rbind = rbind(a, b, c, d)
+	rbind
 
 Результат:
 
@@ -164,8 +164,8 @@ d | 2.0 | 7.0 | 5.1
 
 ## 8. Змінити імена стовпців цього data frame.
 
-names(dataframe7) <- c("integer", "string", "boolean")
-dataframe7
+	names(dataframe7) <- c("integer", "string", "boolean")
+	dataframe7
 
 Результат:
 
